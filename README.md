@@ -1,7 +1,7 @@
 # Jheimys
 
 ## Children's Boutique
-### **created by Sheily Perez**
+### **Created by Sheily Perez**
 
 #### Overview:
 
