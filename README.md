@@ -2,11 +2,6 @@
 
 ## Children's Boutique
 ### **created by Sheily Perez**
-#### *Denver CO*
-##### Emily Griffith Technical College
-###### Final Project for MGD 141
-
-
 
 #### Overview:
 
@@ -23,7 +18,6 @@ Target the lack of clothing options in the country.
 We will be targeting all those that use social media and look for different options for the kids clothing needs. 
 
 
-
 #### Technologies to be used:
 
 ##### Front End: 	
@@ -33,3 +27,8 @@ We will be targeting all those that use social media and look for different opti
 * CSS
 
 * Bootstrap
+
+###### *Denver CO*
+###### Emily Griffith Technical College
+###### Final Project for MGD 141
+
