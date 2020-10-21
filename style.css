@@ -1,6 +1,7 @@
 body{ 
     background-color: #77BFA3;
     font-family: 'Architects Daughter', cursive;
+    cursor: pointer;
 }
 
 .flexbox-container {
