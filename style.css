@@ -10,3 +10,12 @@ body{
 .header{
     justify-content: center;
 }
+
+.address{
+    justify-content: flex-end;
+
+}
+
+a:hover{
+    opacity: 0.5;
+}
