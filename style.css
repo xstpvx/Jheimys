@@ -5,6 +5,7 @@ body{
 .flexbox-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap-reverse;
 }
 
 .header{
