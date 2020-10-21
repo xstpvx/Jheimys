@@ -1,5 +1,5 @@
 # Jheimys
-[live link] https://xstpvx.github.io/Jheimys/
+# [Jheimy's Boutique] (https://xstpvx.github.io/Jheimys/)
 
 ## Children's Boutique
 ### **Created by Sheily Perez**
