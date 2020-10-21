@@ -26,7 +26,7 @@ We will be targeting all those that use social media and look for different opti
 
 * CSS
 
-* Bootstrap
+* FlexBox
 
 ###### *Denver CO*
 ###### Emily Griffith Technical College
