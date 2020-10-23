@@ -1,11 +1,14 @@
 body{ 
-    background-color: #77BFA3;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Architects Daughter', cursive;
     cursor: pointer;
     font-size: larger;
     margin: 0 auto;
     padding: 10px;
 }
+
 
 .flexbox-container {
     display: flex;
