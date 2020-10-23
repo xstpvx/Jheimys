@@ -19,9 +19,17 @@ flex-wrap: wrap;
 align-items: center;
 }
 
-.delivery{
+.delivery {
   justify-content: flex-end;
 
+}
+
+img {
+  filter:drop-shadow(8px 8px 10px rgb(88, 88, 88));
+}
+
+img#tony {
+  filter:contrast(200%);
 }
 
 a {
@@ -39,7 +47,7 @@ font-size: medium;
 }
 
 a:hover {
-opacity: 0.5;
+opacity: 0.6;
 font-size: x-large;
 }
 
@@ -170,7 +178,7 @@ transition: all 0.5s ease;
       }
   }
 
-  @media (min-width: 800px) and (max-width: 991px) 
+  @media (min-width: 800px) and (max-width: 1000px) 
   {
     ul#navbar {
       padding-left: 25%;
@@ -207,3 +215,4 @@ transition: all 0.5s ease;
     vertical-align: middle;
     width: 100%;
 }
+
