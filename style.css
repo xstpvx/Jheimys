@@ -1,100 +1,117 @@
-body{ 
-    background-image: url(images/background.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: 'Architects Daughter', cursive;
-    cursor: pointer;
-    font-size: larger;
-    margin: 0 auto;
-    padding: 10px;
+body { 
+background-image: url(images/background.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+font-family: 'Architects Daughter', cursive;
+cursor: pointer;
+font-size: larger;
+margin: 0 auto;
+padding: 10px;
 }
-
 
 .flexbox-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
 }
+
 .flexbox-item {
-    align-items: center;
+align-items: center;
 }
 
 
-a{
-    text-decoration: none;
+a {
+text-decoration: none;
 }
 
-a:hover{
-    opacity: 0.5;
+a:link {
+color: #e9e9eb ;
 }
+
+a:visited {
+color: #daa8a7 ;
+font-size: medium;
+
+}
+
+a:hover {
+opacity: 0.5;
+font-size: x-large;
+}
+
+a:active {
+color: #f2b4a7 ;
+font-size: x-small;
+}
+
+h4::selection{
+  background-color: black;
+  color: white;
+}
+
 
 .header{
-    justify-content: center;
-    align-items: center;
-    animation-name: header;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+justify-content: center;
+align-items: center;
+animation-name: header;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
 }
 
 @keyframes header{
-    0%{
-        transform: translateY(-200px);
+0%{
+ transform: translateY(-150px);
     }
     
-    25%{
-        transform: translateY(-100px);
+25%{
+ transform: translateY(-50px);
     }
-    50%{
-        transform: translateY(10px);
+
+50%{
+transform: translateY(10px);
     }
-    75%{
-        transform: translateY(50px);
+
+75%{
+   transform: translateY(50px);
     }
-    100%{
-        transform: translateY(10px);
-    }
+
+100%{
+transform: translateY(10px);
+ }
 }
 
   .firstphoto {
-      display: flex;
-      justify-content: center;
-      justify-items: center;
+display: flex;
+justify-content: center;
+justify-items: center;
   }
 
-  .nav{
-    justify-content: center;
-    justify-items: center;
-
+.nav{
+justify-content: center;
+justify-items: center;
   }
 
 
-  ul#navbar {
-    list-style-type: none;
-background-color: #6D2E46;
+ul#navbar {
+list-style-type: none;
+background-color: #6c2e45;
 width: 100%;
 text-align: center;
-  }
+}
   
+ul#navbar li {
+display: inline-block;
+}
 
-  ul#navbar li {
-    display: inline-block;
-    
+ul#navbar li a {
+display: block;
+text-decoration: none;
+ padding: 18px;
+font-size: 1.2em;
+transition: all 0.5s ease;
   }
 
-  ul#navbar li a {
-    display: block;
-    text-decoration: none;
-    color: #EDEEC9;
-    padding: 20px;
-    font-size: 1.2em;
-    transition: all 0.5s ease;
-  }
-
-
-  ul#navbar li a:hover {
-    background: #77BFA3;
-    color: #6D2E46;
-  }
 
   @media (max-width: 480px) 
   {
