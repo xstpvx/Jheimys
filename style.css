@@ -3,6 +3,8 @@ body{
     font-family: 'Architects Daughter', cursive;
     cursor: pointer;
     font-size: larger;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .flexbox-container {
@@ -105,9 +107,14 @@ text-align: center;
       display: block;
       text-align: center;
     }
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
   }
 
-  @media (min-width: 481px) and (max-width: 767px)
+  @media (min-width: 481px) and (max-width: 799px)
   {
     ul#navbar {
       padding-left: 0;
@@ -119,14 +126,45 @@ text-align: center;
       display: block;
       text-align: center;
     }
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
   }
 
-  @media (min-width: 768px) and (max-width: 991px) 
+  @media (min-width: 800px) and (max-width: 991px) 
   {
     ul#navbar {
       padding-left: 25%;
     }
-  }
 
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    
+
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
   
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
   
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
