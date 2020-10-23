@@ -100,10 +100,14 @@ text-align: center;
   {
     ul#navbar {
       padding-left: 0;
+      text-align: center;
+
     }
 
     ul#navbar li {
       display: block;
+      text-align: center;
+
     }
 
     ul#navbar li a {
@@ -121,9 +125,13 @@ text-align: center;
   {
     ul#navbar {
       padding-left: 0;
+      text-align: center;
+
     }
     ul#navbar li {
       display: block;
+      text-align: center;
+
     }
     ul#navbar li a {
       display: block;
@@ -140,6 +148,8 @@ text-align: center;
   {
     ul#navbar {
       padding-left: 25%;
+      text-align: center;
+
     }
 
     .column {
