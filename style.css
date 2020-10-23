@@ -50,11 +50,6 @@ a:hover{
     }
 }
 
-img {
-    min-height: 100%;
-    max-width: 100%;
-  }
-
   .firstphoto {
       display: flex;
       justify-content: center;
@@ -70,30 +65,50 @@ img {
 
   ul#navbar {
     list-style-type: none;
-    background: #000000;
+background-color: #6D2E46;
+width: 100%;
+text-align: center;
   }
   
 
   ul#navbar li {
     display: inline-block;
+    
   }
 
   ul#navbar li a {
     display: block;
     text-decoration: none;
-    color: #ffffff;
-    background: #000000;
+    color: #EDEEC9;
     padding: 20px;
     font-size: 1.2em;
     transition: all 0.5s ease;
   }
 
+
   ul#navbar li a:hover {
-    background: #ffffff;
-    color: #000000;
+    background: #77BFA3;
+    color: #6D2E46;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 480px) 
+  {
+    ul#navbar {
+      padding-left: 0;
+    }
+
+    ul#navbar li {
+      display: block;
+    }
+
+    ul#navbar li a {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px)
+  {
     ul#navbar {
       padding-left: 0;
     }
@@ -106,20 +121,8 @@ img {
     }
   }
 
-  @media (min-width: 481px) and (max-width: 767px) {
-    ul#navbar {
-      padding-left: 0;
-    }
-    ul#navbar li {
-      display: block;
-    }
-    ul#navbar li a {
-      display: block;
-      text-align: center;
-    }
-  }
-  
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) and (max-width: 991px) 
+  {
     ul#navbar {
       padding-left: 25%;
     }
