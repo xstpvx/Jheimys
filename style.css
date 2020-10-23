@@ -40,13 +40,13 @@ a:hover{
         transform: translateY(-100px);
     }
     50%{
-        transform: translateY(0px);
+        transform: translateY(10px);
     }
     75%{
-        transform: translateY(35px);
+        transform: translateY(50px);
     }
     100%{
-        transform: translateY(0px);
+        transform: translateY(10px);
     }
 }
 
@@ -127,4 +127,6 @@ text-align: center;
       padding-left: 25%;
     }
   }
+
+  
   
