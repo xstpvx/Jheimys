@@ -227,3 +227,7 @@ transition: all 0.5s ease;
     width: 100%;
 }
 
+.border{
+  border: #6c2e45 10px solid;
+margin: 0;
+}
