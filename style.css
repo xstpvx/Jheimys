@@ -32,6 +32,17 @@ img#tony {
   filter:contrast(200%);
 }
 
+.instock{
+justify-content: center;
+
+}
+
+h2{
+  color: #6c2e45;
+  margin: 0;
+  padding: 5px;
+}
+
 a {
 text-decoration: none;
 }
