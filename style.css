@@ -6,7 +6,7 @@ font-family: 'Architects Daughter', cursive;
 cursor: pointer;
 font-size: larger;
 margin: 0 auto;
-padding: 10px;
+padding: 20px;
 }
 
 .flexbox-container {
@@ -231,4 +231,9 @@ transition: all 0.5s ease;
   border: #6c2e45 10px solid;
 margin: 0;
 padding: 9px;
+}
+
+#tony{
+  max-width: 100%;
+  max-height: 100%;
 }
